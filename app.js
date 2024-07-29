@@ -15,3 +15,4 @@
 // } else if (dayOfWeek === 'Friday') {
 //     console.log("Yay I love Fridays") 
 // } 
+

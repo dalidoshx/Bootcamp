@@ -1,11 +1,9 @@
+// DEFINE YOUR FUNCTION BELOW:
+
 function sumArray(array) {
-    for (
-      var
-        index = 0,              // The iterator
-        length = array.length,  // Cache the array length
-        sum = 0;                // The total amount
-        index < length;         // The "for"-loop condition
-        sum += array[index++]   // Add number on each iteration
-    );
-    return sum;
-  }
+    let total = 0;
+    for (let i = 0; i < array.length; i++) {
+        total += array[i];
+    }
+    return total;
+}

@@ -1,7 +1,7 @@
-function repeat (str, numTimes) {
-    let result = '';
-    for (let i = 0; i < numTimes; i++) {
-        result += str;
+function isShortsWeather(temperature) {
+    if (temperature >= 75) {
+      return true;
+    } else {
+      return false;
     }
-    console.log(result);
-}
+  }

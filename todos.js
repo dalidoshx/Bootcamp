@@ -3,5 +3,5 @@ function repeat (str, numTimes) {
     for (let i = 0; i < numTimes; i++) {
         result += str;
     }
-    console.log(result)
+    console.log(result);
 }
